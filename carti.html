@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cărți — Nedumerescu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="data.js"></script>
+<style>
+  :root{
+    --ink:#221713;
+    --ink-2:#2F221B;
+    --paper:#F3ECD8;
+    --paper-2:#ece2c9;
+    --gold:#E3A542;
+    --coral:#FF3131;
+    --teal:#4F8B86;
+    --text-on-paper:#2B2A22;
+    --text-muted:#6b6a58;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:
+      radial-gradient(ellipse 1200px 600px at 50% -10%, #3D2C24 0%, var(--ink) 60%);
+    color:var(--paper);
+    font-family:'Work Sans', sans-serif;
+    min-height:100vh;
+    padding:56px 20px 100px;
+  }
+  .wrap{max-width:820px;margin:0 auto;}
+
+  .topnav{
+    display:flex; justify-content:space-between; align-items:center;
+    margin-bottom:40px;
+  }
+  .back-link{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px; color:#E8D6C9;
+    text-decoration:none;
+    border:1px solid #4A3830;
+    background:var(--ink-2);
+    padding:7px 14px; border-radius:999px;
+    transition:border-color .15s, color .15s;
+  }
+  .back-link:hover{border-color:var(--coral); color:#fff;}
+
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:600;
+    font-size:clamp(30px, 5vw, 44px);
+    line-height:1.05;
+    text-align:center;
+    margin:0 0 12px;
+  }
+  h1 em{font-style:italic; font-weight:500; color:var(--coral);}
+  .sub{
+    text-align:center; color:#D6C0B2; font-size:15.5px;
+    max-width:460px; margin:0 auto 48px; line-height:1.55;
+  }
+
+  .shelf{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(150px, 1fr));
+    gap:22px;
+    margin-bottom:10px;
+  }
+  .book-card{
+    cursor:pointer;
+    background:var(--ink-2);
+    border:1px solid #4A3830;
+    border-radius:14px;
+    padding:14px;
+    text-align:center;
+    transition:transform .15s, border-color .15s;
+  }
+  .book-card:hover{transform:translateY(-4px); border-color:var(--coral);}
+  .book-card.active{border-color:var(--gold); box-shadow:0 0 0 3px rgba(227,165,66,.15);}
+  .book-card img{
+    width:100%; aspect-ratio:2/3; object-fit:cover;
+    border-radius:8px; margin-bottom:10px;
+    box-shadow:0 12px 24px -10px rgba(0,0,0,.5);
+  }
+  .book-card .b-title{
+    font-family:'Fraunces', serif; font-weight:500; font-size:14.5px;
+    line-height:1.25; color:var(--paper);
+  }
+  .book-card .b-count{
+    font-family:'IBM Plex Mono', monospace; font-size:11px;
+    color:#9C8175; margin-top:4px;
+  }
+
+  .empty-shelf{
+    text-align:center; color:#9C8175; font-style:italic;
+    padding:50px 20px;
+    border:1px dashed #4A3830; border-radius:16px;
+  }
+
+  #wordsPanel{
+    margin-top:44px;
+    background:var(--paper);
+    color:var(--text-on-paper);
+    border-radius:18px;
+    padding:36px 38px;
+    display:none;
+    animation:pageIn .4s ease forwards;
+  }
+  #wordsPanel.open{display:block;}
+  @keyframes pageIn{from{opacity:0; transform:translateY(10px);} to{opacity:1; transform:translateY(0);}}
+  #wordsPanel h2{
+    font-family:'Fraunces', serif; font-weight:600; font-size:26px; margin:0 0 4px;
+  }
+  #wordsPanel .book-meta{
+    font-family:'IBM Plex Mono', monospace; font-size:12.5px; color:var(--text-muted);
+    margin-bottom:22px;
+  }
+  .word-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));
+    gap:10px;
+  }
+  .word-pill{
+    display:block;
+    text-decoration:none;
+    background:var(--paper-2);
+    color:var(--text-on-paper);
+    border-radius:10px;
+    padding:13px 16px;
+    transition:background .15s;
+  }
+  .word-pill:hover{background:var(--gold); color:#fff;}
+  .word-pill .w-name{font-family:'Fraunces', serif; font-weight:600; font-size:15.5px; display:block;}
+  .word-pill .w-tag{font-family:'IBM Plex Mono', monospace; font-size:10.5px; color:var(--text-muted);}
+  .word-pill:hover .w-tag{color:rgba(255,255,255,.85);}
+  .no-words{color:var(--text-muted); font-style:italic; font-size:14px;}
+
+  @media (max-width:640px){
+    body{padding:36px 16px 70px;}
+    .shelf{grid-template-columns:repeat(auto-fill, minmax(120px, 1fr)); gap:14px;}
+    #wordsPanel{padding:26px 22px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topnav">
+    <a class="back-link" href="index.html">← Înapoi la dicționar</a>
+    <span></span>
+  </div>
+
+  <h1>Rafturile cu <em>cărți</em></h1>
+  <p class="sub">Fiecare carte adăugată aici își are propria listă de cuvinte nedumeritoare, exact așa cum le-ai întâlnit citind-o.</p>
+
+  <div class="shelf" id="shelf"></div>
+  <div id="wordsPanel">
+    <h2 id="wpTitle"></h2>
+    <p class="book-meta" id="wpMeta"></p>
+    <div class="word-grid" id="wpWords"></div>
+  </div>
+
+</div>
+
+<script>
+function normalize(s){
+  return s.toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/[^a-z0-9 ]/g,'')
+    .trim();
+}
+
+function wordsForBook(bookId){
+  return DICT.filter(e => e.book === bookId);
+}
+
+function renderShelf(){
+  const shelf = document.getElementById('shelf');
+  if(!window.BOOKS || BOOKS.length === 0){
+    shelf.innerHTML = '';
+    shelf.parentElement.insertAdjacentHTML('beforeend',
+      '<div class="empty-shelf">Încă nu ai adăugat nicio carte. Deschide <code>data.js</code> și completează lista <code>BOOKS</code>.</div>');
+    return;
+  }
+  shelf.innerHTML = BOOKS.map(b => {
+    const count = wordsForBook(b.id).length;
+    return `
+    <div class="book-card" data-id="${b.id}" onclick="selectBook('${b.id.replace(/'/g,"\\'")}')">
+      <img src="${b.cover}" alt="${b.title}" onerror="this.style.opacity=0.25">
+      <div class="b-title">${b.title}</div>
+      <div class="b-count">${count} ${count===1 ? 'cuvânt' : 'cuvinte'}</div>
+    </div>`;
+  }).join('');
+}
+
+function selectBook(bookId){
+  document.querySelectorAll('.book-card').forEach(c=>{
+    c.classList.toggle('active', c.dataset.id === bookId);
+  });
+  const book = BOOKS.find(b => b.id === bookId);
+  const words = wordsForBook(bookId);
+  const panel = document.getElementById('wordsPanel');
+
+  document.getElementById('wpTitle').textContent = book.title;
+  document.getElementById('wpMeta').textContent =
+    words.length === 0 ? 'niciun cuvânt legat încă' :
+    words.length === 1 ? '1 cuvânt din această carte' :
+    `${words.length} cuvinte din această carte`;
+
+  document.getElementById('wpWords').innerHTML = words.length
+    ? words.map(w => `
+        <a class="word-pill" href="index.html?q=${encodeURIComponent(w.word)}">
+          <span class="w-name">${w.word}</span>
+          <span class="w-tag">${w.tagLabel}</span>
+        </a>`).join('')
+    : '<p class="no-words">Adaugă cuvinte cu <code>book:"' + bookId + '"</code> în data.js ca să apară aici.</p>';
+
+  panel.classList.add('open');
+  panel.scrollIntoView({behavior:'smooth', block:'nearest'});
+}
+
+renderShelf();
+</script>
+</body>
+</html>
