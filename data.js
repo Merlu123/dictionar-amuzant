@@ -139,8 +139,14 @@ const DICT = [
 // Ca sa legi un cuvant de o carte, pui id-ul cartii in campul "book" al cuvantului (in loc de null).
 const BOOKS = [
   {
+    id:"doamnapd",
+    title:"Doamna Pylinska și secretul lui Chopin",
+    cover:"coperti/doamnap.png"
+  }
+  {
     id:"exemplu-carte",
     title:"Numele Cartii Tale",
     cover:"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='340'><rect width='240' height='340' fill='%23241A17'/><text x='120' y='175' font-family='sans-serif' font-size='16' fill='%23E8D6C9' text-anchor='middle'>coperta ta aici</text></svg>"
   }
+  
 ];
