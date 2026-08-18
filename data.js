@@ -132,6 +132,13 @@ const DICT = [
     why:"Pentru sursa de inspirație a unui artist.",
     story:"În mitologia greacă, cele nouă Muze erau fiicele lui Zeus, fiecare responsabilă cu o formă de artă sau știință — poezie, muzică, astronomie, istorie. Artiștii antici le invocau la începutul operelor, cerându-le inspirație. Astăzi <strong>„muză”</strong> desemnează orice persoană sau lucru care inspiră creativitatea cuiva — un pictor își poate numi partenerul „muza” lui, fără nicio legătură reală cu Olimpul."
   },
+    {
+    word:"Școala Normală Superioară", aliases:["școala normală"],
+    phon:"/școa-la nor-ma-lă su-pe-ri-oa-ră/", tag:"educație", tagLabel:"educație",
+    book:null,
+    why:"Dacă reușești să intri aici, ești atât de tare încât primești și salariu.",
+    story:"În mitologia greacă, cele nouă Muze erau fiicele lui Zeus, fiecare responsabilă cu o formă de artă sau știință — poezie, muzică, astronomie, istorie. Artiștii antici le invocau la începutul operelor, cerându-le inspirație. Astăzi <strong>„muză”</strong> desemnează orice persoană sau lucru care inspiră creativitatea cuiva — un pictor își poate numi partenerul „muza” lui, fără nicio legătură reală cu Olimpul."
+  },
   {
     word:"Schimnicie", aliases:["schimnicii"],
     phon:"/schim-ni-CI-e/", tag:"religie", tagLabel:"religie",
