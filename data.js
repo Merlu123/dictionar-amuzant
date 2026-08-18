@@ -138,11 +138,7 @@ const DICT = [
 // "cover" poate fi fie un link catre o imagine online, fie o imagine codificata base64 -- la fel ca la logo.
 // Ca sa legi un cuvant de o carte, pui id-ul cartii in campul "book" al cuvantului (in loc de null).
 const BOOKS = [
-  {
-    id:"doamnapd",
-    title:"Doamna Pylinska și secretul lui Chopin",
-    cover:"coperti/doamnap.png"
-  }
+ 
   {
     id:"exemplu-carte",
     title:"Numele Cartii Tale",
