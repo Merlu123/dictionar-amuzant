@@ -138,13 +138,6 @@ const DICT = [
     book:null,
     why:"Dacă reușești să intri aici, ești atât de tare încât primești și salariu.",
     story:"În mitologia greacă, cele nouă Muze erau fiicele lui Zeus, fiecare responsabilă cu o formă de artă sau știință — poezie, muzică, astronomie, istorie. Artiștii antici le invocau la începutul operelor, cerându-le inspirație. Astăzi <strong>„muză”</strong> desemnează orice persoană sau lucru care inspiră creativitatea cuiva — un pictor își poate numi partenerul „muza” lui, fără nicio legătură reală cu Olimpul."
-  },
-  {
-    word:"Schimnicie", aliases:["schimnicii"],
-    phon:"/schim-ni-CI-e/", tag:"religie", tagLabel:"religie",
-    book:null,
-    why:"„evadat din schimnicia școlară”",
-    story:"Vine de la schimnic, adică un om care alege să trăiască izolat de societate.<br><br>Ce-i drept, și perioada școlară poate fi, tras de păr, o schimnicie..."
   }
 ];
 
