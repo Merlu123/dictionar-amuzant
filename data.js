@@ -142,7 +142,7 @@ const DICT = [
     {
     word:"schimnicie", aliases:["schimnicii"],
     phon:"/schim-ni-cI-e/", tag:"religie", tagLabel:"religie",
-    book:doamnap,
+    book:"doamnap",
     why:"„evadat din schimnicia școlară”-„Doamna Pylinska și secretul lui Chopin” de Éric-Emmanuel Schmitt",
     story:"Vine de la schimnic, adică un om care alege să trăiască izolat de societate (prin păduri, peșteri și alte pustietăți) pentru a putea să se dedice total credinței în Dumnezeu. Adică, altfel spus, pustnic. Sunt sigur că nu și-au dorit niciodată asta, dar unii pustnici au devenit chiar celebri. Îmi vin acum în minte Sfântul Daniil Sihastrul (cine merge la Mănăstirea Putna, îi găsește și chilia în apropiere) sau Sfântul Ioan Casian (care a trăit într-o peșteră pe lângă Constanța. Ireal cum a reușit să supraviețuiască într-un loc atât de creepy).<br><br>Ce-i drept, și perioada școlară poate fi, tras de păr, o schimnicie, cum zice Éric-Emmanuel Schmitt: elevii sunt izolați de societate (fericiți cei ce nu au de plătit facturi), ducând o viață plină de cumpătare (în general, contrar prejudecăților, majoritatea elevilor nu sunt așa prăjiți cum mai arată la televizor; studenția e aia care te lecuiește de tocilăreală și ore de culcare), închinată rugăciunii (cu intensitate maximă mai ales în săptămâna tezelor) și mântuirii sufletului (prin credința în viața de după bac)."
   }
