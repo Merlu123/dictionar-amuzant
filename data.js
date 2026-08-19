@@ -118,6 +118,13 @@ const DICT = [
     why:"Pentru o societate „perfectă” care nu poate exista în realitate.",
     story:"Thomas More a scris în 1516 despre o insulă imaginară numită Utopia, o societate organizată perfect, fără sărăcie sau conflicte — numele venind chiar din greacă, „locul care nu există”. Astăzi <strong>„utopie”</strong> descrie orice idee sau plan ideal, dar nerealist, iar opusul ei, <strong>distopia</strong>, descrie o societate ideală doar la prima vedere, de fapt profund opresivă (gândește-te la „1984”)."
   },
+   {
+    word:"Franc", aliases:["francă"],
+    phon:"/frAnc/", tag:"adjectiv", tagLabel:"adjectiv",
+    book:"doamnap",
+    why:"„instrumentul suna viril și franc sub degetele mele”-„Doamna Pylinska și secretul lui Chopin” de Éric-Emmanuel Schmitt",
+    story:"Dacă cineva îmi zice că sunt franc, acum știu că mi-a făcut un compliment. Prima oară, aș fi zis că ori m-a confundat și m-a făcut francez (ceea ce mi-a gâdilat un pic orgoliul, n-am să te mint), ori s-a intoxicat cu produse etilice și m-a confundat cu fosta monedă națională a Franței.<br><br>Abia mai târziu am descoperit că înseamnă sincer, cinstit, că vorbești deschis, pe față, ceea ce gândești. <br><br>Îmi place cum sună, simplu, curat, ca un capac trântit peste lada de zestre. Franc. El este un motan franc."
+  },
   {
     word:"Lyon", aliases:["Lion"],
     phon:"/li-On/", tag:"oraș", tagLabel:"oraș",
