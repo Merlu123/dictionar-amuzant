@@ -3,7 +3,7 @@ const DICT = [
     word:"Sisific", aliases:["sisif","sisyphus","munca sisifica","efort sisific"],
     phon:"/si-SI-fic/", tag:"myth", tagLabel:"mit grecesc",
     book:null,
-    why:"Apare oriunde cineva vrea să spună „muncă fără sfârșit și fără sens”.",
+    why:"Adică ce faci la muncă",
     story:"Sisif a fost un rege al Corintului atât de viclean încât a reușit de două ori să păcălească moartea. Zeii, sătui de aroganța lui, i-au dat o pedeapsă pe măsură: să împingă un bolovan uriaș până în vârful unui munte. Numai că, de fiecare dată când ajungea sus, piatra se rostogolea înapoi la vale. Așa că <strong>„sisific”</strong> descrie orice efort care se repetă la nesfârșit, fără să ducă niciodată undeva — genul de task de la job pe care-l faci luni și-l refaci vineri."
   },
   {
@@ -119,11 +119,11 @@ const DICT = [
     story:"Thomas More a scris în 1516 despre o insulă imaginară numită Utopia, o societate organizată perfect, fără sărăcie sau conflicte — numele venind chiar din greacă, „locul care nu există”. Astăzi <strong>„utopie”</strong> descrie orice idee sau plan ideal, dar nerealist, iar opusul ei, <strong>distopia</strong>, descrie o societate ideală doar la prima vedere, de fapt profund opresivă (gândește-te la „1984”)."
   },
   {
-    word:"Complexul lui Oedip", aliases:["oedip","oedipal"],
-    phon:"/E-dip/", tag:"myth", tagLabel:"termen psihologic",
-    book:null,
-    why:"Termen freudian folosit — și abuzat — în discuții despre familie.",
-    story:"Oedip, personaj din mitologia greacă, și-a ucis fără să știe tatăl și s-a căsătorit fără să știe cu mama lui, împlinind o profeție de care încercase disperat să scape. Freud a împrumutat povestea pentru a numi o etapă ipotetică de dezvoltare psihologică în care copilul mic ar avea atașament intens față de părintele de sex opus. Termenul e controversat azi în psihologie, dar rămâne extrem de folosit cultural, adesea glumeț și exagerat."
+    word:"Lyon", aliases:["Lion"],
+    phon:"/li-On/", tag:"oraș", tagLabel:"oraș",
+    book:"doamnap",
+    why:"Nu are treabă cu leii, dar are cu romanii.",
+    story:"Lyon este un mare oraș din estul Franței, cam cum este Clujul nostru. Este al treilea din țară ca populație (după Paris și Marsilia) și un mare centru industrial și bancar. A ruine romane, catedrale gotice, clădiri superbe, chiar și o ditamai moschee!<br><br>Credeam că numele lui are legătură cu leul (<i>lion</i> e în franceză, ceea ce ar fi fost foarte tare din perspectiva mea felină), dar nu. Cică e din vechea limba galică și vine de la un zeu de-al lor sau de la lumină (foarte intuitiv, ce să zic...). Dar mă rog, mie tot mi a rămas în memorie ca orașul ăla cu leu.<br>Aici se găsește sediul Interpol (organizația aia de cooperare între polițiile din toate țările. Toată lumea a auzit la tv că nu știu cine a fugit din țară, dar e dat în urmărire de Interpol). <br><br> Antoine de Saint-Exupéry și împăratul roman Claudius (am aflat de el din cărțile foarte faine „Eu, Claudius” și „Claudius Zeul” de Robert Graves) s-au născut la Lyon. Frații Auguste și Charles Lumière (creatorii cinematografului) și Éric-Emmanuel Schmitt nu s-au născut, dar au crescut în Lyon.<br><br>Îmi place. După ce mă plictisesc de Paris, aș face un city-brake aici."
   },
   {
     word:"Paris", aliases:["Parisului"],
