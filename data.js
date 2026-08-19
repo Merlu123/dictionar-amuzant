@@ -126,16 +126,16 @@ const DICT = [
     story:"Oedip, personaj din mitologia greacă, și-a ucis fără să știe tatăl și s-a căsătorit fără să știe cu mama lui, împlinind o profeție de care încercase disperat să scape. Freud a împrumutat povestea pentru a numi o etapă ipotetică de dezvoltare psihologică în care copilul mic ar avea atașament intens față de părintele de sex opus. Termenul e controversat azi în psihologie, dar rămâne extrem de folosit cultural, adesea glumeț și exagerat."
   },
   {
-    word:"Muză", aliases:["muse","muzele"],
-    phon:"/MU-ză/", tag:"myth", tagLabel:"mit grecesc",
-    book:null,
-    why:"Pentru sursa de inspirație a unui artist.",
-    story:"În mitologia greacă, cele nouă Muze erau fiicele lui Zeus, fiecare responsabilă cu o formă de artă sau știință — poezie, muzică, astronomie, istorie. Artiștii antici le invocau la începutul operelor, cerându-le inspirație. Astăzi <strong>„muză”</strong> desemnează orice persoană sau lucru care inspiră creativitatea cuiva — un pictor își poate numi partenerul „muza” lui, fără nicio legătură reală cu Olimpul."
+    word:"Paris", aliases:["Parisului"],
+    phon:"/pa-rIs/", tag:"oraș", tagLabel:"oraș",
+    book:"doamnap",
+    why:"Dacă ai căutat cuvântul ăsta, scuză-mă că întreb, dar cum de ai găsit semnal wi-fi în peșteră?",
+    story:"Zici Paris și te gândești la Catedrala Notre-Dame, Turnul Eiffel, Luvru, plimbări pe malul Senei, podul ăla frumos din aur, croissante și baghete, librării, librării, librării, biblioteci, grădini, Constantin Brâncuși, George Enescu, Victor Hugo, Moulin Rouge, Napoleon... mai ești pe fază încă 342 de ore ca să continui?"
   },
     {
     word:"Școala Normală Superioară", aliases:["școala normală"],
     phon:"/școA-la nor-mA-lă su-pe-ri-oA-ră/", tag:"educație", tagLabel:"educație",
-    book:null,
+    book:"doamnap",
     why:"Dacă reușești să intri aici, ești atât de tare încât primești și salariu.",
     story:"Toată lumea, atunci când se gândește la sistemul de educație din Franța, zice imediat Sorbona. Da, își merită prestigiul, n-am ce comenta, dar pierdem din vedere faptul că ei mai au o instituție atât de înaltă și de selectivă, încât trebuie să fii cel puțin geniu ca să intri acolo. École normale supérieure.<br><br>Admiterea se face prin concursuri naționale extrem de severe ce necesită doi ani de pregătire intensă după liceu (<i>classes préparatoires</i>) (asta ar fi diferența față de sistemul din România. În Franța există universități, ca Sorbona, unde intri mai ușor, pe baza unui dosar, sau grandes écoles cum e ENS, unde intri pe baza unui examen super greu de admitere). ENS primește doar o mână de studenți pe an (numiți <i>normaliens</i>). Studenții admiși pe locurile oficiale au statut de funcționari publici stagiari și primesc un salariu lunar de la stat pe durata studiilor (cât de tare e asta! Nici nu mă gândeam că există așa ceva).<br>A fost fondată în timpul Revoluției Franceze, în 1794 (pe când noi aveam epoca fanariotă și îi prindeam și noi din urmă cu academiile noastre domnești) și își are sediul în celebrul Cartier Latin al Parisului. <br><br>Printre studenții celebri se numără Jean-Paul Sartre (filozof, scriitor și câștigător de Premiu Nobel, dar pentru aspectul fizic), Éric-Emmanuel Schmitt (scriitor pe bandă rulantă foarte celebru și la noi; aici a studiat filosofia), Louis Pasteur (inventatorul pasteurizării fără de care n-am mai putea cumpăra lapte de la magazin), Georges Pompidou (fost președinte al Franței), Nicușor Dan (actual președinte al României; toată țara știe că a făcut matematica, dar puțin știu că a urmat această școală de prestigiu), Theodor Paleologu (toată lumea îl știe fie de la radio, podcasturi, fondator al Casei Paleologu sau din librării).<br>Dacă ești curios cum e să fii student la ENS, poți să vezi filmul <i>Le Théorème de Marguerite</i> (2023)."
   },
@@ -144,7 +144,7 @@ const DICT = [
     phon:"/schim-ni-cI-e/", tag:"religie", tagLabel:"religie",
     book:"doamnap",
     why:"„evadat din schimnicia școlară”-„Doamna Pylinska și secretul lui Chopin” de Éric-Emmanuel Schmitt",
-    story:"Vine de la schimnic, adică un om care alege să trăiască izolat de societate (prin păduri, peșteri și alte pustietăți) pentru a putea să se dedice total credinței în Dumnezeu. Adică, altfel spus, pustnic. Sunt sigur că nu și-au dorit niciodată asta, dar unii pustnici au devenit chiar celebri. Îmi vin acum în minte Sfântul Daniil Sihastrul (cine merge la Mănăstirea Putna, îi găsește și chilia în apropiere) sau Sfântul Ioan Casian (care a trăit într-o peșteră pe lângă Constanța. Ireal cum a reușit să supraviețuiască într-un loc atât de creepy).<br><br>Ce-i drept, și perioada școlară poate fi, tras de păr, o schimnicie, cum zice Éric-Emmanuel Schmitt: elevii sunt izolați de societate (fericiți cei ce nu au de plătit facturi), ducând o viață plină de cumpătare (în general, contrar prejudecăților, majoritatea elevilor nu sunt așa prăjiți cum mai arată la televizor; studenția e aia care te lecuiește de tocilăreală și ore de culcare), închinată rugăciunii (cu intensitate maximă mai ales în săptămâna tezelor) și mântuirii sufletului (prin credința în viața de după bac)."
+    story:"Vine de la schimnic, adică un om care alege să trăiască izolat de societate (prin păduri, peșteri și alte pustietăți) pentru a putea să se dedice total credinței în Dumnezeu. Adică, altfel spus, pustnic. Sunt sigur că nu și-au dorit niciodată asta, dar unii pustnici au devenit chiar celebri. Îmi vin acum în minte Sfântul Daniil Sihastrul (cine merge la Mănăstirea Putna, îi găsește și chilia în apropiere) sau Sfântul Ioan Casian (care a trăit într-o peșteră pe lângă Constanța. Abia ajungi la ea, darămite să mai și locuiești 365 de zile acolo...).<br><br>Ce-i drept, și perioada școlară poate fi, tras de păr, o schimnicie, cum zice Éric-Emmanuel Schmitt: elevii sunt izolați de societate (fericiți cei ce nu au de plătit facturi), ducând o viață plină de cumpătare (în general, contrar prejudecăților, majoritatea elevilor nu sunt așa prăjiți cum mai arată la televizor; studenția e aia care te lecuiește de tocilăreală și ore de culcare), închinată rugăciunii (cu intensitate maximă mai ales în săptămâna tezelor) și mântuirii sufletului (prin credința în viața de după bac)."
   }
 ];
 
@@ -157,6 +157,11 @@ const BOOKS = [
     id:"doamnap",
     title:"Doamna Pylinska și secretul lui Chopin",
     cover:"coperti/doamnap.png"
+  },
+  {
+    id:"corespondenta",
+    title:"Corespondenta",
+    cover:"coperti/corespondenta.png"
   }
   
 ];
