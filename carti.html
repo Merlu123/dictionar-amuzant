@@ -176,7 +176,7 @@ function wordsForBook(bookId){
 
 function renderShelf(){
   const shelf = document.getElementById('shelf');
-  if(!window.BOOKS || BOOKS.length === 0){
+  if(typeof BOOKS === 'undefined' || BOOKS.length === 0){
     shelf.innerHTML = '';
     shelf.parentElement.insertAdjacentHTML('beforeend',
       '<div class="empty-shelf">Încă nu ai adăugat nicio carte. Deschide <code>data.js</code> și completează lista <code>BOOKS</code>.</div>');
