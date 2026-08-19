@@ -156,7 +156,7 @@ const BOOKS = [
   {
     id:"doamnap",
     title:"Doamna Pylinska și secretul lui Chopin",
-    cover:"https://github.com/Merlu123/dictionarul-nedumerescu/blob/main/coperti/doamnap.png"
+    cover:"coperti/doamnap.png"
   }
   
 ];
