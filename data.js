@@ -118,8 +118,29 @@ const DICT = [
     why:"Pentru o societate „perfectă” care nu poate exista în realitate.",
     story:"Thomas More a scris în 1516 despre o insulă imaginară numită Utopia, o societate organizată perfect, fără sărăcie sau conflicte — numele venind chiar din greacă, „locul care nu există”. Astăzi <strong>„utopie”</strong> descrie orice idee sau plan ideal, dar nerealist, iar opusul ei, <strong>distopia</strong>, descrie o societate ideală doar la prima vedere, de fapt profund opresivă (gândește-te la „1984”)."
   },
+    {
+    word:"Acord", aliases:["acorduri"],
+    phon:"/a-cOrd/", tag:"muzică", tagLabel:"muzică",
+    book:"doamnap",
+    why:"În muzică, acordul este atunci când sunetele se pun de acord.",
+    story:"În pictură, există culori de bază ca roșu, galben și albastru (ce frumos e steagul nostru), cu care poți face un desen drăguț. Dar poți să le amesteci și să obții și alte culori. Unele pot arăta dubioase ca scoase dintr-o conservă uitată la soare, altele pot fi superbe de-ți vine să te îmbraci numai cu ele. Și dacă le folosești, îți poate ieși un tablou de atârnat la Luvru (utopic vorbind). <br><br>Așa e și în muzică. Poți cânta în același timp mai multe note muzicale și să sune bine împreună (și atunci se cheamă că ai făcut un acord) sau te zgârie pe creier (și atunci se cheamă...hmmm... cred că au fost prea traumatizați ca să găsească un cuvânt pentru asta). În timp, lumea a descoperit cam ce note merg bine împreună și a dat nume acordurilor, precum do major sau re minor."
+  },
+    {
+    word:"Digital", aliases:["digitală","digitale"],
+    phon:"/di-gi-tAl/", tag:"adjectiv", tagLabel:"adjectiv",
+    book:"doamnap",
+    why:"„pianul asculta de impulsurile mele digitale”-„Doamna Pylinska și secretul lui Chopin” de Éric-Emmanuel Schmitt",
+    story:"Acest cuvânt apare în dicționarul Nedumirescu nu pentru că ar avea nevoie de o explicație (până la urmă suntem asaltați de termeni ca dispozitive digitale, digitalizarea României, competențe digitale și toată lumea știe că au treabă cu tehnologia), ci pentru că <i>a avea tehnologia la degetul mic</i> nu e o expresie metaforică. <br><br>Totul a pornit de la DJ Deget. Cum s-au gândit oamenii preistorici să-și întrebuințeze degețelele în scopuri mai științifice decât scobitul în nas? Să vadă dacă nu le-a dispărut vreo oaie din bătătură. Înainte să le ducă la păscut, asociau fiecare oaie cu câte un deget și, la finalul zilei, când le aduceau înapoi acasă, vedeau dacă le-a rămas vreun deget fără oaie. Cum am zice noi astăzi, le numărau pe degete. Așa s-au născut cifrele. 10 degete, 10 cifre. <i>Digitus</i> în latină-Deget-cifre? Pe undeva s-a rupt firul. <i>Digits</i> din engleză ar veni mănușă.<br><br>Și așa a apărut cuvântul <i>digital</i>, pentru orice ținea de degete. Amprente, mușchi, gesturi, impulsuri etcetera, etcetera.<br><br>Și apoi cineva s-a gândit: dacă am scrie toată informația doar cu cifre? Mai exact în doar două cifre: o și 1. Banii din cont? Un șir încurajator de lung de unu-uri (dubios că nu există cuvânt pentru așa ceva) și zerouri (de ce Doamne iartă-mă e singurul care are tratament preferențial?). Scrisoarea către bunica? O aglomerare de 0 și 1 pe care n-o poate citi nici bunica (asta dacă nu e o bunică genială). O fotografie cu mine la mare? Egală cu zero. Și mulți de unu presărați deasupra, à la  Salt Bae.<br><br>Așa s-a născut limbajul digital, care vine de la <i>digits</i>, care vine de la degete. Dar cum a devenit prea lung șirul de strămoși, sensul inițial s-a pierdut în negura vremurilor și a rămas doar tehnolooooogia (sper că ai spus-o ca în meme)."
+  },
+  {
+    word:"viril", aliases:["virili"],
+    phon:"/vi-rIl/", tag:"adjectiv", tagLabel:"adjectiv",
+    book:"doamnap",
+    why:"„instrumentul suna viril și franc sub degetele mele”-„Doamna Pylinska și secretul lui Chopin” de Éric-Emmanuel Schmitt",
+    story:"<i>Viril</i> este unul din cuvintele alea care fac treaba ingrată de exprimare a prejudecăților. Mai exact, pe cea mai de bază prejudecată din lumea asta: băieți versus fete.<br><br><i>Viril</i> înseamnă specific masculin (pentru că <i>vir</i> în limba latină înseamnă <i>bărbat<i/>), dar a fost upgradat și extins ca sinonim cu energic, viguros, plin de forță. <br><br>Complementarul lui ar fi <i>feminin</i> (pentru că vine și el din latină, unde <i>femina</i> înseamnă <i>femeie</i>).<i>Feminin</i> apare în DEX ca însemnând specific femeilor, și prin extensie... nimic. Atât e definiția. Specific femeilor, orice ar însemna asta (vai, eternul mister al femeilor neînțelese, asta ca disculpare să nu se scrie slab, emotiv, isteric, inferior cognitiv). Și nu doar în limba română, așa apare și în limbile internaționale.<br><br>Dar asta nu înseamnă că gata, ar trebui parașutat din dicționar și interzis prin constituție. Este un cuvânt care-și face jobul pentru care e plătit, ca oricare altul. Dar ce mă amuză de fiecare dată e că până la urmă limba este mijlocul prin care societatea comunică, dar și se dă de gol. Și asta e doar o observație. Atât."
+  },
    {
-    word:"Franc", aliases:["francă"],
+    word:"franc", aliases:["francă"],
     phon:"/frAnc/", tag:"adjectiv", tagLabel:"adjectiv",
     book:"doamnap",
     why:"„instrumentul suna viril și franc sub degetele mele”-„Doamna Pylinska și secretul lui Chopin” de Éric-Emmanuel Schmitt",
