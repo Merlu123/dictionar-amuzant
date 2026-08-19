@@ -119,14 +119,14 @@ const DICT = [
     story:"Thomas More a scris în 1516 despre o insulă imaginară numită Utopia, o societate organizată perfect, fără sărăcie sau conflicte — numele venind chiar din greacă, „locul care nu există”. Astăzi <strong>„utopie”</strong> descrie orice idee sau plan ideal, dar nerealist, iar opusul ei, <strong>distopia</strong>, descrie o societate ideală doar la prima vedere, de fapt profund opresivă (gândește-te la „1984”)."
   },
     {
-    word:"Acord", aliases:["acorduri"],
+    word:"acord", aliases:["acorduri"],
     phon:"/a-cOrd/", tag:"muzică", tagLabel:"muzică",
     book:"doamnap",
     why:"În muzică, acordul este atunci când sunetele se pun de acord.",
     story:"În pictură, există culori de bază ca roșu, galben și albastru (ce frumos e steagul nostru), cu care poți face un desen drăguț. Dar poți să le amesteci și să obții și alte culori. Unele pot arăta dubioase ca scoase dintr-o conservă uitată la soare, altele pot fi superbe de-ți vine să te îmbraci numai cu ele. Și dacă le folosești, îți poate ieși un tablou de atârnat la Luvru (utopic vorbind). <br><br>Așa e și în muzică. Poți cânta în același timp mai multe note muzicale și să sune bine împreună (și atunci se cheamă că ai făcut un acord) sau te zgârie pe creier (și atunci se cheamă...hmmm... cred că au fost prea traumatizați ca să găsească un cuvânt pentru asta). În timp, lumea a descoperit cam ce note merg bine împreună și a dat nume acordurilor, precum do major sau re minor."
   },
     {
-    word:"Digital", aliases:["digitală","digitale"],
+    word:"digital", aliases:["digitală","digitale"],
     phon:"/di-gi-tAl/", tag:"adjectiv", tagLabel:"adjectiv",
     book:"doamnap",
     why:"„pianul asculta de impulsurile mele digitale”-„Doamna Pylinska și secretul lui Chopin” de Éric-Emmanuel Schmitt",
